@@ -29,3 +29,54 @@
 2021-04-11 10:32:25.650 INFO  (qtp573200870-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1618137145582} status=0 QTime=0
 2021-04-11 10:32:25.670 INFO  (qtp573200870-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618137145582} status=0 QTime=19
 2021-04-11 10:32:25.688 INFO  (qtp573200870-37) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618137145582} status=0 QTime=14
+2021-04-11 11:44:59.355 INFO  (qtp573200870-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=25
+2021-04-11 11:44:59.390 INFO  (qtp573200870-36) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=15
+2021-04-11 11:44:59.406 INFO  (qtp573200870-37) [   x:doc] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=doc&action=STATUS&wt=json} status=0 QTime=0
+2021-04-11 11:44:59.465 INFO  (qtp573200870-16) [   x:doc] o.a.s.h.a.CoreAdminOperation core create command name=doc&action=CREATE&instanceDir=doc&wt=json
+2021-04-11 11:44:59.534 INFO  (qtp573200870-16) [   x:doc] o.a.s.c.SolrResourceLoader [doc] Added 56 libs to classloader, from paths: [/home/rowena/nlp/solr-7.5.0/contrib/clustering/lib, /home/rowena/nlp/solr-7.5.0/contrib/extraction/lib, /home/rowena/nlp/solr-7.5.0/contrib/langid/lib, /home/rowena/nlp/solr-7.5.0/contrib/velocity/lib, /home/rowena/nlp/solr-7.5.0/dist]
+2021-04-11 11:44:59.760 INFO  (qtp573200870-16) [   x:doc] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.5.0
+2021-04-11 11:44:59.949 INFO  (qtp573200870-16) [   x:doc] o.a.s.s.IndexSchema [doc] Schema name=default-config
+2021-04-11 11:45:00.577 INFO  (qtp573200870-16) [   x:doc] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-04-11 11:45:00.609 INFO  (qtp573200870-16) [   x:doc] o.a.s.c.CoreContainer Creating SolrCore 'doc' using configuration from instancedir /home/rowena/nlp/solr-7.5.0/server/solr/doc, trusted=true
+2021-04-11 11:45:00.621 INFO  (qtp573200870-16) [   x:doc] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.doc' (registry 'solr.core.doc') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7fee8714
+2021-04-11 11:45:00.637 INFO  (qtp573200870-16) [   x:doc] o.a.s.c.SolrCore [[doc] ] Opening new SolrCore at [/home/rowena/nlp/solr-7.5.0/server/solr/doc], dataDir=[/home/rowena/nlp/solr-7.5.0/server/solr/doc/data/]
+2021-04-11 11:45:00.749 INFO  (qtp573200870-16) [   x:doc] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2021-04-11 11:45:01.161 INFO  (qtp573200870-16) [   x:doc] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-04-11 11:45:01.161 INFO  (qtp573200870-16) [   x:doc] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-04-11 11:45:01.180 INFO  (qtp573200870-16) [   x:doc] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-04-11 11:45:01.180 INFO  (qtp573200870-16) [   x:doc] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-04-11 11:45:01.198 INFO  (qtp573200870-16) [   x:doc] o.a.s.s.SolrIndexSearcher Opening [Searcher@38c85b7f[doc] main]
+2021-04-11 11:45:01.234 INFO  (qtp573200870-16) [   x:doc] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/rowena/nlp/solr-7.5.0/server/solr/doc/conf
+2021-04-11 11:45:01.258 INFO  (qtp573200870-16) [   x:doc] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-04-11 11:45:01.273 INFO  (qtp573200870-16) [   x:doc] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-04-11 11:45:01.293 INFO  (qtp573200870-16) [   x:doc] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2021-04-11 11:45:01.294 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@38c85b7f[doc] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2021-04-11 11:45:01.295 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-04-11 11:45:01.295 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-04-11 11:45:01.299 INFO  (qtp573200870-16) [   x:doc] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1696744342866100224
+2021-04-11 11:45:01.302 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.c.SolrCore [doc] Registered new searcher Searcher@38c85b7f[doc] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2021-04-11 11:45:01.306 INFO  (qtp573200870-16) [   x:doc] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=doc&action=CREATE&instanceDir=doc&wt=json} status=0 QTime=1841
+2021-04-11 12:00:38.162 INFO  (qtp573200870-18) [   x:doc] o.a.s.u.p.LogUpdateProcessorFactory [doc]  webapp=/solr path=/update params={}{add=[1 (1696745321925705728), 2 (1696745322257055744), 3 (1696745322349330432), 4 (1696745322366107648), 5 (1696745322412244992), 6 (1696745322507665408), 7 (1696745322528636928), 8 (1696745322553802752), 9 (1696745322624057344), 10 (1696745322647126016), ... (193 adds)]} 0 3185
+2021-04-11 12:00:38.169 INFO  (qtp573200870-36) [   x:doc] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1696745325245497344,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+2021-04-11 12:00:38.527 INFO  (qtp573200870-36) [   x:doc] o.a.s.s.SolrIndexSearcher Opening [Searcher@1b2f8a10[doc] main]
+2021-04-11 12:00:38.529 INFO  (qtp573200870-36) [   x:doc] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2021-04-11 12:00:38.530 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1b2f8a10[doc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.5.0):C193)))}
+2021-04-11 12:00:38.530 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-04-11 12:00:38.536 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.c.SolrCore [doc] Registered new searcher Searcher@1b2f8a10[doc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.5.0):C193)))}
+2021-04-11 12:00:38.542 INFO  (qtp573200870-36) [   x:doc] o.a.s.u.p.LogUpdateProcessorFactory [doc]  webapp=/solr path=/update params={softCommit=true}{commit=} 0 374
+2021-04-11 12:00:50.318 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2021-04-11 12:00:50.318 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@3789956f commitCommandVersion:0
+2021-04-11 12:00:50.375 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@f4491d8[doc] realtime]
+2021-04-11 12:00:50.375 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2021-04-11 12:01:19.527 INFO  (qtp573200870-37) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1618142479459} status=0 QTime=0
+2021-04-11 12:01:19.549 INFO  (qtp573200870-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618142479459} status=0 QTime=22
+2021-04-11 12:01:19.568 INFO  (qtp573200870-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618142479459} status=0 QTime=15
+2021-04-11 12:01:24.997 INFO  (qtp573200870-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1618142479459} status=0 QTime=0
+2021-04-11 12:01:25.001 INFO  (qtp573200870-17) [   x:doc] o.a.s.c.S.Request [doc]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1618142484991} status=0 QTime=2
+2021-04-11 12:01:25.005 INFO  (qtp573200870-36) [   x:doc] o.a.s.c.S.Request [doc]  webapp=/solr path=/replication params={wt=json&command=details&_=1618142484992} status=0 QTime=6
+2021-04-11 12:01:25.005 INFO  (qtp573200870-15) [   x:doc] o.a.s.c.S.Request [doc]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1618142479459&ts=1618142479459} status=503 QTime=1
+2021-04-11 12:01:25.028 INFO  (qtp573200870-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618142479459} status=0 QTime=30
+2021-04-11 12:01:25.032 INFO  (qtp573200870-37) [   x:doc] o.a.s.c.S.Request [doc]  webapp=/solr path=/admin/system params={wt=json&_=1618142484991} status=0 QTime=32
+2021-04-11 12:01:28.286 INFO  (qtp573200870-37) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1618142479459} status=0 QTime=0
+2021-04-11 12:01:28.308 INFO  (qtp573200870-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618142479459} status=0 QTime=22
+2021-04-11 12:02:47.644 INFO  (qtp573200870-37) [   x:doc] o.a.s.c.S.Request [doc]  webapp=/solr path=/select params={q=content_txt_ja:"石油ガス"+AND+content_txt_ja:"天然ガス"&_=1618142488269} hits=8 status=0 QTime=42
