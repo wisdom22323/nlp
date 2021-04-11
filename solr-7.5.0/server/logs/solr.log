@@ -1,0 +1,31 @@
+2021-04-11 10:30:27.227 INFO  (main) [   ] o.e.j.u.log Logging initialized @555ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-04-11 10:30:27.334 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 11.0.10+9-Ubuntu-0ubuntu1.18.04
+2021-04-11 10:30:27.351 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///mnt/c/Users/rowena/OneDrive/Desktop/nlp/solr-7.5.0/server/contexts/] at interval 0
+2021-04-11 10:30:27.713 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-04-11 10:30:27.738 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-04-11 10:30:27.739 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-04-11 10:30:27.741 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2021-04-11 10:30:27.771 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2021-04-11 10:30:27.793 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-04-11 10:30:27.797 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.5.0
+2021-04-11 10:30:27.797 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2021-04-11 10:30:27.798 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/rowena/nlp/solr-7.5.0
+2021-04-11 10:30:27.798 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-04-11T10:30:27.798247Z
+2021-04-11 10:30:27.828 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/rowena/nlp/solr-7.5.0/server/solr
+2021-04-11 10:30:27.833 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/rowena/nlp/solr-7.5.0/server/solr/solr.xml
+2021-04-11 10:30:27.869 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@7fee8714, but no JMX reporters were configured - adding default JMX reporter.
+2021-04-11 10:30:28.416 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2021-04-11 10:30:28.417 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2021-04-11 10:30:28.467 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7fee8714
+2021-04-11 10:30:28.467 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7fee8714
+2021-04-11 10:30:28.471 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7fee8714
+2021-04-11 10:30:28.528 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /home/rowena/nlp/solr-7.5.0/server/solr
+2021-04-11 10:30:28.562 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@2320fa6f{/solr,file:///mnt/c/Users/rowena/OneDrive/Desktop/nlp/solr-7.5.0/server/solr-webapp/webapp/,AVAILABLE}{/mnt/c/Users/rowena/OneDrive/Desktop/nlp/solr-7.5.0/server/solr-webapp/webapp}
+2021-04-11 10:30:28.570 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@7a93b263{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2021-04-11 10:30:28.570 INFO  (main) [   ] o.e.j.s.Server Started @1899ms
+2021-04-11 10:30:49.391 INFO  (qtp573200870-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1618137049261} status=0 QTime=35
+2021-04-11 10:30:49.418 INFO  (qtp573200870-37) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618137049262} status=0 QTime=62
+2021-04-11 10:30:49.448 INFO  (qtp573200870-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618137049262} status=0 QTime=22
+2021-04-11 10:32:25.650 INFO  (qtp573200870-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1618137145582} status=0 QTime=0
+2021-04-11 10:32:25.670 INFO  (qtp573200870-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618137145582} status=0 QTime=19
+2021-04-11 10:32:25.688 INFO  (qtp573200870-37) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618137145582} status=0 QTime=14
