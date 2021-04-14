@@ -1,3 +1,4 @@
+*.db filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.html filter=lfs diff=lfs merge=lfs -text
 /packages/CRF++-0.58/.libs/crf_learn filter=lfs diff=lfs merge=lfs -text
@@ -162,7 +163,6 @@
 /packages/mecab-ipadic-2.7.0-20070801/dicrc filter=lfs diff=lfs merge=lfs -text
 /packages/mecab-ipadic-2.7.0-20070801/install-sh filter=lfs diff=lfs merge=lfs -text
 *.dic filter=lfs diff=lfs merge=lfs -text
-*.db filter=lfs diff=lfs merge=lfs -text
 /solr-7.5.0/bin/init.d/solr filter=lfs diff=lfs merge=lfs -text
 /solr-7.5.0/bin/post filter=lfs diff=lfs merge=lfs -text
 /solr-7.5.0/bin/solr filter=lfs diff=lfs merge=lfs -text
