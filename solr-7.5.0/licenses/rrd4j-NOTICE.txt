@@ -1,2 +1,3 @@
-GitHub: https://github.com/rrd4j/rrd4j/
-Maven-generated site: http://rrd4j.org/site/
+version https://git-lfs.github.com/spec/v1
+oid sha256:d08747611ed1d6aed2ed417c75270d0c4573d10f20af0cdff2dbe4a4d0080bdf
+size 87

@@ -1,22 +1,3 @@
-import glob
-import json
-import urllib.parse
-
-import scrape
-import sqlitedatastore as datastore
-
-if __name__=='__main__':
-    datastore.connect()
-    values=[]
-    for filename in glob.glob('./data/wikipedia/*.html'):
-        with open(filename) as fin:
-            html = fin.read()
-            text, title = scrape.scrape(html)
-            print('scraped : ', title)
-            url = 'https://ja.wikipedia.org/wiki/{0}'.format(
-                urllib.parse.quote(title))
-            values.append((text, json.dumps({'url':url, 'title':title})))
-    datastore.load(values)
-
-    print(list(datastore.get_all_ids(limit=-1)))
-    datastore.close()
+version https://git-lfs.github.com/spec/v1
+oid sha256:74f70ebaf0f45d96449f5dd9c981868baa68577924f78d96b5bcac60a5115093
+size 645

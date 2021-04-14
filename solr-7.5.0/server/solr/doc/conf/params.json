@@ -1,20 +1,3 @@
-{"params":{
-  "query":{
-    "defType":"edismax",
-    "q.alt":"*:*",
-    "rows":"10",
-    "fl":"*,score",
-    "":{"v":0}
-  },
-  "facets":{
-    "facet":"on",
-    "facet.mincount": "1",
-    "":{"v":0}
-  },
- "velocity":{
-   "wt": "velocity",
-   "v.template":"browse",
-   "v.layout": "layout",
-   "":{"v":0}
- }
-}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:222a7afeda197162ac8ab2c81572949e0de9c4300feacaea7da62295cc0356ec
+size 329

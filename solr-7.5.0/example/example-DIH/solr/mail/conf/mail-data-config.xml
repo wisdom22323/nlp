@@ -1,12 +1,3 @@
-<dataConfig>
-  <document>
-      <!--
-        Note - In order to index attachments, set processAttachement="true" and drop
-        Tika and its dependencies to example-DIH/solr/mail/lib directory
-       -->
-      <entity processor="MailEntityProcessor" user="email@gmail.com"
-            password="password" host="imap.gmail.com" protocol="gimaps"
-            fetchMailsSince="2014-06-30 00:00:00" batchSize="20" folders="inbox" processAttachement="false"
-            name="mail_entity"/>
-  </document>
-</dataConfig>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2b683ba3d181144b575515d36667fd619e5d5aba23c7ce71107223c8664c59c
+size 528

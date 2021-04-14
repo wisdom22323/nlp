@@ -1,19 +1,3 @@
-all: refman.pdf
-
-pdf: refman.pdf
-
-refman.pdf: clean refman.tex
-	pdflatex refman
-	makeindex refman.tex
-	pdflatex refman
-	latex_count=5 ; \
-	while egrep -s 'Rerun (LaTeX|to get cross-references right)' refman.log && [ $$latex_count -gt 0 ] ;\
-	    do \
-	      echo "Rerunning latex...." ;\
-	      pdflatex refman ;\
-	      latex_count=`expr $$latex_count - 1` ;\
-	    done
-
-
-clean:
-	rm -f *.ps *.dvi *.aux *.toc *.idx *.ind *.ilg *.log *.out *.brf *.blg *.bbl refman.pdf
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb7d01277ca35043b3f2b3b8e6a73c1c20c623c2ded3b69ac0061f049754af8a
+size 469

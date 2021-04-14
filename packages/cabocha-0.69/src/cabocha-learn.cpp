@@ -1,11 +1,3 @@
-// CaboCha -- Yet Another Japanese Dependency Parser
-//
-//  $Id: cabocha-learn.cpp 41 2008-01-20 09:31:34Z taku-ku $;
-//
-//  Copyright(C) 2001-2008 Taku Kudo <taku@chasen.org>
-#include "cabocha.h"
-#include "winmain.h"
-
-int main(int argc, char**argv) {
-  return cabocha_learn(argc, argv);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:09bb2cde5696ec68457890d3265059bdb4d369d56ae60665c7c0253ca8472542
+size 290

@@ -1,7 +1,3 @@
-This product currently only contains code developed by authors
-of specific components, as identified by the source code files;
-if such notes are missing files have been created by
-Tatu Saloranta.
-
-For additional credits (generally to people who reported problems)
-see CREDITS file.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e15ba9b8a3b51dbe006527250ec506f3099d21ed63ddb732c1282115e24fb1ae
+size 289

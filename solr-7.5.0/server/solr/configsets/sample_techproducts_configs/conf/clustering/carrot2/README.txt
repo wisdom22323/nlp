@@ -1,11 +1,3 @@
-An override location of the clustering algorithm's resources 
-attribute definitions and lexical resources.
-
-A directory from which to load algorithm-specific stop words,
-stop labels and attribute definition XMLs. 
-
-For an overview of Carrot2 lexical resources, see:
-http://download.carrot2.org/head/manual/#chapter.lexical-resources
-
-For an overview of Lingo3G lexical resources, see:
-http://download.carrotsearch.com/lingo3g/manual/#chapter.lexical-resources
+version https://git-lfs.github.com/spec/v1
+oid sha256:c671481a1fb3983c27e790b5bfe66285a9a79983ea5a555d100e3357f47b0e71
+size 471

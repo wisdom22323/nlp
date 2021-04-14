@@ -1,7 +1,3 @@
-cost-factor = 800
-bos-feature = BOS/EOS
-# output-format-type=yomi
-
-# node-format-yomi = %H
-# unk-format-yomi = %M
-# eos-format-yomi  = \n
+version https://git-lfs.github.com/spec/v1
+oid sha256:326a5e8a8dee6fda0ce874d59b49bcdaa6d479f53a5dcf210b2353de22d8865a
+size 138

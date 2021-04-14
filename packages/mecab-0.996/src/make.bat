@@ -1,8 +1,3 @@
-Set PATH=c:\Program Files\Microsoft Visual Studio 8\VC\bin;%PATH%
-Set INCLUDE=c:\Program Files\Microsoft Visual Studio 8\VC\include;c:\Program Files\Microsoft Platform SDK\Include;%INCLUDE%
-Set LIB=c:\Program Files\Microsoft Visual Studio 8\VC\lib;c:\Program Files\Microsoft Platform SDK\Lib;%LIB%
-Set COMSPEC=cmd.exe
-rem nmake -f Makefile.msvc clean
-nmake -f Makefile.msvc
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8ae4a094aa9c594f92872ac5f645a4c8e0c72d299046db041e1b7b86dcf4ccb
+size 384

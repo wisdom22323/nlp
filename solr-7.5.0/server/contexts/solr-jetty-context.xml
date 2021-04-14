@@ -1,8 +1,3 @@
-<?xml version="1.0"?>
-<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_0.dtd">
-<Configure class="org.eclipse.jetty.webapp.WebAppContext">
-  <Set name="contextPath"><Property name="hostContext" default="/solr"/></Set>
-  <Set name="war"><Property name="jetty.base"/>/solr-webapp/webapp</Set>
-  <Set name="defaultsDescriptor"><Property name="jetty.base"/>/etc/webdefault.xml</Set>
-  <Set name="extractWAR">false</Set>
-</Configure>
+version https://git-lfs.github.com/spec/v1
+oid sha256:72d5a81285b4d5994eb9e40304ef48e13173c51d82f07373d2d2a9fa1e04ce4d
+size 482

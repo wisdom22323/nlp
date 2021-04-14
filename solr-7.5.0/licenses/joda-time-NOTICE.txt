@@ -1,5 +1,3 @@
-=============================================================================
-= NOTICE file corresponding to section 4d of the Apache License Version 2.0 =
-=============================================================================
-This product includes software developed by
-Joda.org (http://www.joda.org/).
+version https://git-lfs.github.com/spec/v1
+oid sha256:b154bf92635c234c6bb4ba9178f1d4a45da2c581580602d7371dd21579b588d0
+size 316

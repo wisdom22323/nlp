@@ -1,9 +1,3 @@
-modeldir   = @prefix@/lib/cabocha/model
-model_DATA = @CABOCHA_MODEL_LIST@
-EXTRA_DIST = @CABOCHA_TXTMODEL_LIST@
-CLEANFILES = *.model *.model.tmp
-SUFFIXES = .txt .model
-CHARSET = @CHARSET@
-
-@CABOCHA_MODEL_LIST@:
-	../src/cabocha-model-index -f UTF8 -t $(CHARSET) $*.txt $@
+version https://git-lfs.github.com/spec/v1
+oid sha256:bccc00191b288891b43050207254f08bdc006de46954b80747c48a9cfe0d4527
+size 270

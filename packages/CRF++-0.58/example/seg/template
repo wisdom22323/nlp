@@ -1,14 +1,3 @@
-# Unigram
-U00:%x[-2,0]
-U01:%x[-1,0]
-U02:%x[0,0]
-U03:%x[1,0]
-U04:%x[2,0]
-U05:%x[-2,0]/%x[-1,0]/%x[0,0]
-U06:%x[-1,0]/%x[0,0]/%x[1,0]
-U07:%x[0,0]/%x[1,0]/%x[2,0]
-U08:%x[-1,0]/%x[0,0]
-U09:%x[0,0]/%x[1,0]
-
-# Bigram
-B
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e1d4090dff7a36e0aba7438f8cbf3fd981b6c72fb9ac210efaa587fc699ddc8
+size 212

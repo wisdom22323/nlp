@@ -1,11 +1,3 @@
-Metrics
-Copyright 2010-2013 Coda Hale and Yammer, Inc.
-
-This product includes software developed by Coda Hale and Yammer, Inc.
-
-This product includes code derived from the JSR-166 project (ThreadLocalRandom, Striped64,
-LongAdder), which was released with the following comments:
-
-    Written by Doug Lea with assistance from members of JCP JSR-166
-    Expert Group and released to the public domain, as explained at
-    http://creativecommons.org/publicdomain/zero/1.0/
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed835fd656ac7de638ceb0912c028014c791b9a08b28186424f0518296f690b9
+size 481

@@ -1,12 +1,3 @@
-CRF++ perl module
-
-1. Installation
-
-   % perl Makefile.PL
-   % make
-   % su
-   # make install
-   
-2. How to use?
-
-  See 'test.pl' as a sample program
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c876d711ceeaadb31663950f1e8742f2710d4f28c2c789b1509eedaf281d31d
+size 150

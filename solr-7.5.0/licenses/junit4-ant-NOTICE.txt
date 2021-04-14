@@ -1,12 +1,3 @@
-
-JUnit4, parallel JUnit execution for ANT
-Copyright 2011-2012 Carrot Search s.c.
-http://labs.carrotsearch.com/randomizedtesting.html
-
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
-
-This product includes asm (asmlib), BSD license
-This product includes Google Guava, ASL license
-This product includes simple-xml,   ASL license
-This product includes Google GSON,  ASL license
+version https://git-lfs.github.com/spec/v1
+oid sha256:45d24c1c190216e72a21dad0b19128f7e9450e28c3a1165c0c861b1355b9f989
+size 440

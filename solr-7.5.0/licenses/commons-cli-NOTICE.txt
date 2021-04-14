@@ -1,5 +1,3 @@
-Apache Commons CLI
-Copyright 2001-2009 The Apache Software Foundation
-
-This product includes software developed by
-The Apache Software Foundation (http://www.apache.org/).
+version https://git-lfs.github.com/spec/v1
+oid sha256:68f93017779be0f7a22437e8e66aa6a6746e41b2e85a85d78cdc038f36a3a9d3
+size 177

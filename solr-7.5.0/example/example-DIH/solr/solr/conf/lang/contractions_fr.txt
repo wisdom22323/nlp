@@ -1,15 +1,3 @@
-# Set of French contractions for ElisionFilter
-# TODO: load this as a resource from the analyzer and sync it in build.xml
-l
-m
-t
-qu
-n
-s
-j
-d
-c
-jusqu
-quoiqu
-lorsqu
-puisqu
+version https://git-lfs.github.com/spec/v1
+oid sha256:6215a59b700a8fe9bfee33b6bb3d6e033f5e5a819ac269ff1d22928bc44b9a4d
+size 183

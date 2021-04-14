@@ -1,9 +1,3 @@
-#!/usr/bin/perl
-
-# やぼったくっ,47,47,5026,形容詞,自立,*,*,形容詞・アウオ段,連用テ接続,やぼったい,ヤボッタクッ,ヤボッタクッ
-
-while (<>) {
-    chomp;
-    my @l = split /,/, $_;
-    print "1\t", $l[11], "\n";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6dc08dcc9a01065262c9978da819923d8538b13513cdc62e92506c8d280f57df
+size 209

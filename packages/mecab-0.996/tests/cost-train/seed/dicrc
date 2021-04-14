@@ -1,5 +1,3 @@
-cost-factor = 800
-bos-feature = BOS/EOS,*,*,*,*,*,*,*,*
-eval-size = 6
-unk-eval-size = 4
-config-charset = EUC-JP
+version https://git-lfs.github.com/spec/v1
+oid sha256:4648532fefa8c6e8ce28f052845e247e8e3b126be39b4e7c98c1053ae39733d6
+size 112

@@ -1,12 +1,3 @@
-# Process this file with automake to produce Makefile.in
-
-man_MANS = cabocha.1
-EXTRA_DIST = $(man_MANS)
-
-update-man:
-	@for man in $(man_MANS); do \
-		cmd=`basename $$man .1` && \
-		LANG=C help2man --no-info ../src/$$cmd | \
-		perl -pe s/\\bFSF\\b/CaboCha/  | \
-		perl -pe 's/(LT|lt)-//g' > $$man; \
-	done
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b04eda46d82cdc82c072f8b0670363d7234d6583db264b98d5b53715d1dcf36
+size 305

@@ -1,16 +1,3 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-import CaboCha
-
-# c = CaboCha.Parser("");
-c = CaboCha.Parser()
-
-sentence = "太郎はこの本を二郎を見た女性に渡した。"
-
-print c.parseToString(sentence)
-
-tree =  c.parse(sentence)
-
-print tree.toString(CaboCha.FORMAT_TREE)
-print tree.toString(CaboCha.FORMAT_LATTICE)
+version https://git-lfs.github.com/spec/v1
+oid sha256:30d53e0eed689f479046fd5cdb05a294ad621aab01c3449a68806208568aa7c9
+size 324

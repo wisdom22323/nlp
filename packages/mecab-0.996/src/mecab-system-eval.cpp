@@ -1,12 +1,3 @@
-//  MeCab -- Yet Another Part-of-Speech and Morphological Analyzer
-//
-//
-//  Copyright(C) 2001-2006 Taku Kudo <taku@chasen.org>
-//  Copyright(C) 2004-2006 Nippon Telegraph and Telephone Corporation
-#include "mecab.h"
-#include "winmain.h"
-
-int main(int argc, char **argv) {
-  return mecab_system_eval(argc, argv);
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f7c1b4a086cb52dab676a44cb51195ce05393df3b698117731f359c9058f62b
+size 316

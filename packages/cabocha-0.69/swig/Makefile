@@ -1,36 +1,3 @@
-SWIG = swig
-PREFIX = CaboCha
-
-all: perl ruby python java
-
-clean:
-	rm -f      *.pm *.cxx *.py
-	
-perl:	
-	$(SWIG) -perl -shadow -c++ $(PREFIX).i
-	mv -f $(PREFIX)_wrap.cxx ../perl
-	mv -f $(PREFIX).pm ../perl
-
-ruby:	
-	$(SWIG) -ruby -c++ $(PREFIX).i
-	mv -f $(PREFIX)_wrap.cxx ../ruby/$(PREFIX)_wrap.cpp
-	
-python:	
-	$(SWIG) -python -shadow -c++ $(PREFIX).i
-	mv -f $(PREFIX)_wrap.cxx ../python
-	mv -f $(PREFIX).py ../python
-	
-csharp:	
-	$(SWIG) -csharp -namespace CaboCha -c++ $(PREFIX).i
-	mv -f $(PREFIX)_wrap.cxx ../csharp
-	mv -f *.cs ../csharp
-
-java:
-	$(SWIG) -java -package org.chasen.cabocha -c++ $(PREFIX).i
-	mkdir -p ../java/org/chasen/cabocha
-	mv -f $(PREFIX)_wrap.cxx ../java
-#	rm -fr exception.java SWIGTYPE_*.java
-	mv -f *.java ../java/org/chasen/cabocha
-	
-	
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:873a697e9ed18e08eeef237f74b5563b081fedfed30375fa2dd7ac1a9de2df77
+size 762

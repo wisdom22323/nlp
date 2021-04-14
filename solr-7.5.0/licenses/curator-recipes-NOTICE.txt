@@ -1,5 +1,3 @@
-Apache Curator
-Copyright 2013-2014 The Apache Software Foundation
-
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ff46342568f4d19919ca6167bab78906993321aaf274e63badfd615c94c6c6c
+size 173

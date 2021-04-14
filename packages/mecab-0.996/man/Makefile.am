@@ -1,12 +1,3 @@
-# Process this file with automake to produce Makefile.in
-
-man_MANS = mecab.1
-EXTRA_DIST = $(man_MANS)
-
-update-man:
-	@for man in $(man_MANS); do \
-		cmd=`basename $$man .1` && \
-		LANG=C help2man --no-info ../src/$$cmd | \
-		perl -pe s/\\bFSF\\b/MeCab/  | \
-		perl -pe 's/(LT|lt)-//g' > $$man; \
-	done
+version https://git-lfs.github.com/spec/v1
+oid sha256:62f1abe05f6b244286445f827e7b052e8be12464c1e5bf18bb807aeeff03e24f
+size 301

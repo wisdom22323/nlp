@@ -1,11 +1,3 @@
-Prometheus instrumentation library for JVM applications
-Copyright 2012-2015 The Prometheus Authors
-
-This product includes software developed at
-Boxever Ltd. (http://www.boxever.com/).
-
-This product includes software developed at
-SoundCloud Ltd. (http://soundcloud.com/).
-
-This product includes software developed as part of the
-Ocelli project by Netflix Inc. (https://github.com/Netflix/ocelli/).
+version https://git-lfs.github.com/spec/v1
+oid sha256:1100ce0b68c247827d19d5c4953b4317454efbd156e2c742ee19f29e6033ca5b
+size 408

@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-
-from distutils.core import setup,Extension,os
-import string
-
-setup(name = "mecab-python",
-      py_modules=["CRFPP"],
-      ext_modules = [Extension("_CRFPP",
-                               ["CRFPP_wrap.cxx",],
-                               libraries=["crfpp", "pthread"])
-                     ])
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b4679f2439a279e6e5d3f18926da6e187763138978a4691ff974673fb99e3d2
+size 321

@@ -1,4 +1,3 @@
-The Clustering contrib plugin for Solr provides a generic mechanism for plugging in third party clustering implementations.
-It currently provides clustering support for search results using the Carrot2 project.
-
-See https://lucene.apache.org/solr/guide/result-clustering for how to get started.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d5eea5568be3d2c47572a76aad4c9521e7c2d728f95beee781ff4e10897b810
+size 299

@@ -1,5 +1,3 @@
-Apache Calcite
-Copyright 2012-2016 The Apache Software Foundation
-
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
+version https://git-lfs.github.com/spec/v1
+oid sha256:eff5429fd2922ef1fefa6115d43178559b2d6d6bb9ecfb3050cab9977110524e
+size 173

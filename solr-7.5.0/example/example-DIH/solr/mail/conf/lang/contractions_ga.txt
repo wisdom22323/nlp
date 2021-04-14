@@ -1,5 +1,3 @@
-# Set of Irish contractions for ElisionFilter
-# TODO: load this as a resource from the analyzer and sync it in build.xml
-d
-m
-b
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ea0b840230c7bf36434806fa330f2e1fad93179139b70ab504cf48341d8c7ad
+size 132

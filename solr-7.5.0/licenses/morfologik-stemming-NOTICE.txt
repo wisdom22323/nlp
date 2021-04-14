@@ -1,2 +1,3 @@
-This product includes BSD-licensed software developed by Dawid Weiss and Marcin Miłkowski
-(http://morfologik.blogspot.com/).
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f62479f46f88ec9483ec9ad4353dd4e7f113e5478af50fabfda51962ffa9b9f
+size 128

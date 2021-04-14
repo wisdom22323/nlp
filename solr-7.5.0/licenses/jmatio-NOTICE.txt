@@ -1,8 +1,3 @@
-JMatIO is a JAVA library to read/write/manipulate with Matlab binary
-MAT-files.
-
-If you would like to comment, improve, critisize the project please 
-email me: wgradkowski@gmail.com 
-
-or visit JMatIO project page at Sourceforge:
-http://www.sourceforge.net/projects/jmatio
+version https://git-lfs.github.com/spec/v1
+oid sha256:1411d0199c943aca69b756f69935a24265694427d55823a3caabc60ac2296650
+size 280

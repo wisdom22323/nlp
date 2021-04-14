@@ -1,19 +1,3 @@
-<!-- 
-  Default configuration for the STC clustering algorithm.
-
-  This file can be loaded (and saved) by Carrot2 Workbench.
-  http://project.carrot2.org/download.html
--->
-<attribute-sets default="attributes">
-    <attribute-set id="attributes">
-      <value-set>
-        <label>attributes</label>
-          <attribute key="MultilingualClustering.defaultLanguage">
-            <value type="org.carrot2.core.LanguageCode" value="ENGLISH"/>
-          </attribute>
-          <attribute key="MultilingualClustering.languageAggregationStrategy">
-            <value type="org.carrot2.text.clustering.MultilingualClustering$LanguageAggregationStrategy" value="FLATTEN_MAJOR_LANGUAGE"/>
-          </attribute>
-      </value-set>
-  </attribute-set>
-</attribute-sets>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3963cd683e48866a4e8725ab009d68acbfd3cb77eb58af1f27d22b25757a1c28
+size 777

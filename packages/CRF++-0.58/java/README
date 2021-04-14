@@ -1,7 +1,3 @@
-CRF++ java module
-
-$Id: README,v 1.2 2005/12/25 16:55:43 taku-ku Exp $;
-
-  See test.java as sample program.
-
-  % java -classpath CRFPP.jar test -d ../dic
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ee2dda4097572968acce924ac37a88b371f6fb255ddd2aa8bdb3e6a81c041b5
+size 154

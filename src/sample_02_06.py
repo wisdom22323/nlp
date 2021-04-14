@@ -1,12 +1,3 @@
-import urllib.request
-import cchardet
-import scrape
-
-if __name__ == '__main__':
-    url = 'https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9c%AC'
-    with urllib.request.urlopen(url) as res:
-        byte = res.read()
-        html = byte.decode(cchardet.detect(byte)['encoding'])
-        text, title = scrape.scrape(html)
-        print('[title]: ', title)
-        print('[text]: ',text[:300])
+version https://git-lfs.github.com/spec/v1
+oid sha256:6682b188956a91a1fde4831b407c7c3eb58feace3693fa933b50e4fa465d907c
+size 386

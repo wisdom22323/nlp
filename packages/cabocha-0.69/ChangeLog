@@ -1,18 +1,3 @@
-2008-01-01  gettextize  <bug-gnu-gettext@gnu.org>
-
-	* Makefile.am (SUBDIRS): Add po.
-	(EXTRA_DIST): Add m4/ChangeLog.
-	* configure.in (AC_OUTPUT): Add po/Makefile.in.
-
-2008-01-01  gettextize  <bug-gnu-gettext@gnu.org>
-
-	* Makefile.am (SUBDIRS): Add po.
-	* configure.in (AC_OUTPUT): Add po/Makefile.in.
-
-2007-12-31  gettextize  <bug-gnu-gettext@gnu.org>
-
-	* Makefile.am (SUBDIRS): Add po.
-	(ACLOCAL_AMFLAGS): New variable.
-	(EXTRA_DIST): New variable.
-	* configure.in (AC_OUTPUT): Add po/Makefile.in.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6936032347229546b3e8c69990ddb529dfedf0524c0452a51a5e6b5c72911f22
+size 501

@@ -1,8 +1,3 @@
-// ------------------------------------------------------------------
-// NOTICE file corresponding to the section 4d of The Apache License,
-// Version 2.0, in this case for Objenesis
-// ------------------------------------------------------------------
-
-Objenesis
-Copyright 2006-2009 Joe Walnes, Henri Tremblay, Leonardo Mesquita
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:87bc15a0709d67ece73d5d2d68129df2f62bf39104e0923a9d6b0adc59eee8af
+size 339

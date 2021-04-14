@@ -1,13 +1,3 @@
-#!/bin/sh
-
-#
-cd eval
-../../src/mecab-system-eval --level="0 1 2 3 4" system answer > test.out
-diff test.gld test.out;
-if [ "$?" != "0" ]
-then
-  echo "runtests faild in $dir"
-  exit -1
-fi;
-rm -f test.out
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:62ffc8639faf7415d68f8e4c8cfaddbc3f9186b61d8f58a0f8f5641d831ff633
+size 210

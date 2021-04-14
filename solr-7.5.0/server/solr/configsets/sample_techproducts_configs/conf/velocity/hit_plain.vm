@@ -1,25 +1,3 @@
-#**
- *  An extremely plain / debug version of hit.vm
- *#
-
-<table>
-  ## For each field
-  #foreach( $fieldName in $doc.fieldNames )
-    ## For each value
-    #foreach( $value in $doc.getFieldValues($fieldName) )
-      <tr>
-        ## Field Name
-        <th align="right" valign="top">
-          #if( $foreach.count == 1 )
-            $fieldName:
-          #end
-        </th>
-        ## Field Value(s)
-        <td align="left" valign="top">
-          $esc.html($value) <br/>
-        </td>
-      </tr>
-    #end     ## end for each value
-  #end       ## end for each field
-</table>
-<hr/>
+version https://git-lfs.github.com/spec/v1
+oid sha256:842148934d708765f2e6b46115519db31c34ceb740a955888abb24722c7b60bd
+size 608

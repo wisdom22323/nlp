@@ -1,13 +1,3 @@
-//
-//  CRF++ -- Yet Another CRF toolkit
-//
-//  $Id: crf_learn.cpp 1587 2007-02-12 09:00:36Z taku $;
-//
-//  Copyright(C) 2005-2007 Taku Kudo <taku@chasen.org>
-//
-#include "crfpp.h"
-#include "winmain.h"
-
-int main(int argc, char **argv) {
-  return crfpp_learn(argc, argv);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4bc137f07b33fef12730f90ba3a5a6e4ac4e9bc49497848ba3594c4bf117b2e
+size 272

@@ -1,7 +1,3 @@
-
-Apache MINA
-Copyright 2004-2009 Apache MINA Project
-
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:39ee8362eb14f93f6066fee68d93650c0ec4828fd96639e007dcca856039e5f5
+size 163

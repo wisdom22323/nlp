@@ -1,5 +1,3 @@
-Apache Commons Collections
-Copyright 2001-2008 The Apache Software Foundation
-
-This product includes software developed by
-The Apache Software Foundation (http://www.apache.org/).
+version https://git-lfs.github.com/spec/v1
+oid sha256:a39f277725ad78d5780f6816ccc5c34def765d9af0365e58ccccdff855e49e0f
+size 185

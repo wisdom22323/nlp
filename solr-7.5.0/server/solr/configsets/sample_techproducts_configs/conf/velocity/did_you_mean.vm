@@ -1,11 +1,3 @@
-#**
- *  Hyperlinked spelling suggestions in results list
- *#
-
-#set($collations = $response.response.spellcheck.collations.getAll("collation"))
-#if($collations.size() > 0)
-  Did you mean
-  #foreach($collation in $collations)
-    <a href="#{url_for_home}#{lensNoQ}&q=$esc.url($collation.collationQuery)">$esc.html($collation.collationQuery)</a> ($collation.hits)?
-  #end
-#end
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6a9a4e450677093e223dd96d9ed1df49acbbaac297eafabd812e059d2c51aec
+size 385

@@ -1,3 +1,3 @@
-Protocol Buffers - Google's data interchange format
-Copyright 2008 Google Inc.
-http://code.google.com/apis/protocolbuffers/
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cbac1b1620bd593d3e1406bbf50d9b0fc1acbb1025621303099661dda90465e
+size 127

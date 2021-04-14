@@ -1,24 +1,3 @@
-#**
- *  Overall HTML page layout
- *#
-
-<html>
-<head>
-  #parse("head.vm")
-</head>
-  <body>
-    <div id="admin"><a href="#url_root/#/#core_name">Solr Admin</a></div>
-    <div id="header">
-      #parse("header.vm")
-    </div>
-    <div id="tabs">
-      #parse("tabs.vm")
-    </div>
-    <div id="content">
-      $content
-    </div>
-    <div id="footer">
-      #parse("footer.vm")
-    </div>
-  </body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:c5df77103c0d1182d0b7d68a63d1dc9912f3678865d2a85f24adea7cca86b370
+size 427

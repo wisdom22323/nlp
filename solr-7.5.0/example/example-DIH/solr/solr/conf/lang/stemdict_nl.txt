@@ -1,6 +1,3 @@
-# Set of overrides for the dutch stemmer
-# TODO: load this as a resource from the analyzer and sync it in build.xml
-fiets	fiets
-bromfiets	bromfiets
-ei	eier
-kind	kinder
+version https://git-lfs.github.com/spec/v1
+oid sha256:673dabfe4600634d5b0d1bb9a9cb864e6043fec3799ac7a431bcbdfa75bf8833
+size 174

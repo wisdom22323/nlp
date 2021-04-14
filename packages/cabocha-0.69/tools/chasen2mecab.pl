@@ -1,21 +1,3 @@
-#!/usr/bin/perl
-
-# と      ト      と      助詞-格助詞-引用
-
-while (<>) {
-    chomp;
-    if (/EOS/) {
-	print "EOS\n";
-    } elsif (/^\*/) {
-	print "$_\n";
-    } else {
-	my @a = split /\t/, $_;
-	my @b = split /-/, $a[3];
-	while (@b < 4) {
-	    push @b, "*";
-	}
-	$a[4] = $a[4] eq "" ? "*" : $a[4];
-	$a[5] = $a[5] eq "" ? "*" : $a[5];
-	print "$a[0]\t$b[0],$b[1],$b[2],$b[3],$a[4],$a[5],$a[2],$a[1]\t$a[6]\n";
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2950446d2f6e7fbfbd469cd8079b97454ec9f1b4c1d2d8c704ebd765824a8dcb
+size 424

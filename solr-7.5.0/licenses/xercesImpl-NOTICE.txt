@@ -1,8 +1,3 @@
-
-Apache Tika parsers
-Copyright 2007-2010 The Apache Software Foundation
-
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a1755e054d5a985d2707f1b477f6015135878011ff8fe5adbb761a3bfae43d6
+size 184

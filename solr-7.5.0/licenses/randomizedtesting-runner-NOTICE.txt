@@ -1,12 +1,3 @@
-
-RandomizedRunner, a JUnit @Runner for randomized tests (and more)
-Copyright 2011-2012 Carrot Search s.c.
-http://labs.carrotsearch.com/randomizedtesting.html
-
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
-
-This product includes asm (asmlib), BSD license
-This product includes Google Guava, ASL license
-This product includes simple-xml,   ASL license
-This product includes Google GSON,  ASL license
+version https://git-lfs.github.com/spec/v1
+oid sha256:921b96b004833dc32f10633095720976af98a8b8201d66ae5bd3bdaace16fc76
+size 465

@@ -1,36 +1,3 @@
-SWIG = swig
-PREFIX = MeCab
-
-all: perl ruby python java csharp
-
-clean:
-	rm -f      *.pm *.cxx *.py
-	
-perl:	
-	$(SWIG) -perl -shadow -c++ $(PREFIX).i
-	mv -f $(PREFIX)_wrap.cxx ../perl
-	mv -f $(PREFIX).pm ../perl
-
-ruby:	
-	$(SWIG) -ruby -c++ $(PREFIX).i
-	mv -f $(PREFIX)_wrap.cxx ../ruby/$(PREFIX)_wrap.cpp
-	
-python:	
-	$(SWIG) -python -shadow -c++ $(PREFIX).i
-	mv -f $(PREFIX)_wrap.cxx ../python
-	mv -f $(PREFIX).py ../python
-	
-csharp:	
-	$(SWIG) -csharp -namespace MeCab -c++ $(PREFIX).i
-	mv -f $(PREFIX)_wrap.cxx ../csharp
-	mv -f *.cs ../csharp
-
-java:
-	$(SWIG) -java -package org.chasen.mecab -c++ $(PREFIX).i
-	mkdir -p ../java/org/chasen/mecab
-	mv -f $(PREFIX)_wrap.cxx ../java
-#	rm -fr exception.java SWIGTYPE_*.java
-	mv -f *.java ../java/org/chasen/mecab
-	
-	
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:49b464d0a53cb80b0ae6b2b8a73fe9b929442bd44b4cd491f7301946eda0a1f5
+size 759

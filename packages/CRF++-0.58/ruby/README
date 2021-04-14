@@ -1,14 +1,3 @@
-CRF++ ruby module
-
-$Id: README,v 1.1.1.1 2005/12/03 14:18:52 taku-ku Exp $;
-
-1. Installation
-
-   % ruby extconf.rb
-   % make
-   % su
-   # make install
-
-2. How to use?
-
-   See 'test.rb' as a sample program.
+version https://git-lfs.github.com/spec/v1
+oid sha256:76c9d368599f4989aa42ca57a30e7999c79084b659d424e15e931cbbabbbe1fb
+size 206

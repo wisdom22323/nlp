@@ -1,1 +1,3 @@
-Copyright 2015 by Ben Manes
+version https://git-lfs.github.com/spec/v1
+oid sha256:8de23f5c56825ff8459f40918fe53f674c7206144c6fd2528dfa52e465d98837
+size 29

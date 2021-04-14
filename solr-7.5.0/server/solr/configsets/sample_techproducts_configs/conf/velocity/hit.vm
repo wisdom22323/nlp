@@ -1,25 +1,3 @@
-#**
- *  Called for each matching document but then
- *  calls one of product_doc, join_doc or richtext_doc
- *  depending on which fields the doc has
- *#
-
-#set($docId = $doc.getFieldValue('id'))
-
-<div class="result-document">
-
-  ## Has a "name" field ?
-  #if($doc.getFieldValue('name'))
-    #parse("product_doc.vm")
-
-  ## Has a "compName_s" field ?
-  #elseif($doc.getFieldValue('compName_s'))
-    #parse("join_doc.vm")
-
-  ## Fallback to richtext_doc
-  #else
-    #parse("richtext_doc.vm")
-
-  #end
-
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:9117569ea6767339fa71316f9cef0d2afb84070320da192072b4ff2fb66a1842
+size 527

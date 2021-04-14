@@ -1,1 +1,3 @@
-Hello World、自然語処理
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa03a14e5f090db16a1f06aee7e8a9d429bad291e56674c84dfe356d13d021ba
+size 30

@@ -1,1 +1,3 @@
-Copyright 2001-2005 (C) MetaStuff, Ltd. All Rights Reserved.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8627a2f0e855a6091df805a21953a1a82ffe2ea9a7a02723a8bea32a10d1073
+size 62

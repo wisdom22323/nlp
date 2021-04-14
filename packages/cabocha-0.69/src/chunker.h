@@ -1,27 +1,3 @@
-// CaboCha -- Yet Another Japanese Dependency Parser
-//
-//  $Id: chunker.h 41 2008-01-20 09:31:34Z taku-ku $;
-//
-//  Copyright(C) 2001-2008 Taku Kudo <taku@chasen.org>
-#ifndef CABOCHA_CHUNKER_H_
-#define CABOCHA_CHUNKER_H_
-#include "analyzer.h"
-
-struct crfpp_t;
-
-namespace CaboCha {
-
-class Chunker: public Analyzer {
- public:
-  bool open(const Param &param);
-  void close();
-  bool parse(Tree *tree) const;
-
-  explicit Chunker();
-  virtual ~Chunker();
-
- private:
-  crfpp_model_t *model_;
-};
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bb04ca4f82fbf6923a95db9b878da1f189e3e5df82ee62fcebbc6eaccb87b2b
+size 499

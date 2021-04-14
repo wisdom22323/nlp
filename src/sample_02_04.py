@@ -1,12 +1,3 @@
-import re
-import unicodedata
-
-text = '  ＣＬＥＡＮＳing  によりﾃｷｽﾄﾃﾞｰﾀを変換すると　トラブルが少なくなります。'
-print('Before:',text)
-
-translation_table = str.maketrans(dict(zip('()!','（）！')))
-text = unicodedata.normalize('NFKC',text).translate(translation_table)
-text = re.sub(r'\s+',' ',text)
-print('After:',text)
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:da5b8e4f471d7de8ac1d0cd50fc3429f7f2ea6e8c961563a5ceebef239a29d93
+size 370

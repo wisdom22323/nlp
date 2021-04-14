@@ -1,20 +1,3 @@
-# $Id: test.pl 1076 2003-05-11 16:56:56Z taku-ku $;
-
-use lib "../src/.libs";
-use lib $ENV{PWD} . "/blib/lib";
-use lib $ENV{PWD} . "/blib/arch";
-
-my $sentence = "太郎はこの本を二郎を見た女性に渡した。";
-
-use CaboCha;
-my $c = new CaboCha::Parser;
-print $c->parseToString($sentence);
-my $tree = $c->parse($sentence);
-
-print $tree->toString($CaboCha::FORMAT_TREE);
-print $tree->toString($CaboCha::FORMAT_LATTICE);
-
-for (my $i = 0; $i < $tree->token_size(); ++$i) {
-    print $tree->token($i)->{'surface'}, "\t";
-    print $tree->token($i)->{'feature'}, "\n";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:779eab0950c04354aeb047f972f0ea064440d0101f18d9019ee172521744fb72
+size 576

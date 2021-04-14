@@ -1,2 +1,3 @@
-Servlet-api.jar is under the CDDL license, the original source
-code for this can be found at http://www.eclipse.org/jetty/downloads.php
+version https://git-lfs.github.com/spec/v1
+oid sha256:13ac9f0c38c7daf000709f8d2a9c325695a855662b2a7e8d340f55290612417b
+size 138

@@ -1,8 +1,3 @@
-dictionary-charset = euc-jp
-cost-factor = 800
-bos-feature = _
-output-format-type=katakana
-
-node-format-katakana = %H
-unk-format-katakana = %M
-eos-format-katakana  = \n
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdeb8356d040cc9729b14fed9062c4c447f9ea7a1378aa984a83e692961e2399
+size 168

@@ -1,2 +1,3 @@
-This product includes software developed by
-the Restlet project (http://www.restlet.org).
+version https://git-lfs.github.com/spec/v1
+oid sha256:51cfa5c5a5164742603671e0b0d0c0110c83d8de1354dffcaa7b9b851191cb47
+size 92

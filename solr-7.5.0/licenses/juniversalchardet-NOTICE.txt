@@ -1,6 +1,3 @@
-Project home page: http://code.google.com/p/juniversalchardet/
-Java port by Kohei TAKETA (No copyright specified)
-
-The library is subject to the Mozilla Public License Version 1.1. 
-Alternatively, the library may be used under the terms of either the GNU General Public License Version 2 or later,
-or the GNU Lesser General Public License 2.1 or later.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d66c9b5cc8033033949a78b8ee03adefe453876198e0c53dfed98901917dceee
+size 359

@@ -1,12 +1,3 @@
-Apache Tika
-Copyright 2015 The Apache Software Foundation
-
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
-
-Tika-server compoment uses CDDL-licensed dependencies: jersey (http://jersey.java.net/) and 
-Grizzly (http://grizzly.java.net/)
-
-OpenCSV: Copyright 2005 Bytecode Pty Ltd. Licensed under the Apache License, Version 2.0
-
-IPTC Photo Metadata descriptions Copyright 2010 International Press Telecommunications Council.
+version https://git-lfs.github.com/spec/v1
+oid sha256:de930eb0ace757493f7d9c4ac4b4f9723c157d781536970fa5393373842f1a9b
+size 488

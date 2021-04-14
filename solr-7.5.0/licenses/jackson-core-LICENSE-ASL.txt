@@ -1,8 +1,3 @@
-This copy of Jackson JSON processor streaming parser/generator is licensed under the
-Apache (Software) License, version 2.0 ("the License").
-See the License for details about distribution rights, and the
-specific rights regarding derivate works.
-
-You may obtain a copy of the License at:
-
-http://www.apache.org/licenses/LICENSE-2.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3c1d8506ef300a755ce20cd94b9443951fa7bda899b38736101b7354447cecf
+size 340

@@ -1,4 +1,3 @@
-The code for the t-digest was originally authored by Ted Dunning
-
-A number of small but very helpful changes have been contributed by Adrien Grand (https://github.com/jpountz)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc026b37fda754d68defde953efd3de8c0611245064e6ce5958a476b71920850
+size 181

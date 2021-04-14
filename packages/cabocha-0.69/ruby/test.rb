@@ -1,13 +1,3 @@
-#!/usr/bin/ruby
-
-require 'CaboCha'
-sentence = "太郎はこの本を二郎を見た女性に渡した。"
-
-# c = CaboCha::Parser.new("");
-c = CaboCha::Parser.new;
-puts c.parseToString(sentence)
-tree =  c.parse(sentence)
-
-puts tree.toString(CaboCha::FORMAT_TREE);
-puts tree.toString(CaboCha::FORMAT_LATTICE);
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8a9e3b6d2792738209111687a83a16327696df2948412162dfda2e81f72833f
+size 309

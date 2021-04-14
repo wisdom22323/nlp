@@ -1,9 +1,3 @@
-Apache Commons Configuration
-
-Copyright 2001-2008 The Apache Software Foundation
-
-
-
-This product includes software developed by
-
-The Apache Software Foundation (http://www.apache.org/).
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc2593a8c90f0117a1c6f8f37349f9d7385ec5849cd3c9d3e3b490728995822f
+size 195

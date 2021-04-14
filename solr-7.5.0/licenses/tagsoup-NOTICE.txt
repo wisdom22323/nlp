@@ -1,1 +1,3 @@
-Copyright 2002-2008 by John Cowan
+version https://git-lfs.github.com/spec/v1
+oid sha256:11f12ebbda60686d252be07cd6fc30fa248cd82a409baa8f70ba25755067a2df
+size 35

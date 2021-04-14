@@ -1,16 +1,3 @@
-import urllib.request
-import cchardet
-from bs4 import BeautifulSoup
-
-if __name__ == '__main__':
-    url = 'https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9c%AC'
-    with urllib.request.urlopen(url) as res:
-        byte = res.read()
-        html = byte.decode(cchardet.detect(byte)['encoding'])
-        soup = BeautifulSoup(html, 'html.parser')
-
-        title = soup.head.title
-        print('[title]:',title.text,'\n')
-        
-        for block in soup.find_all(['p','h1','h2','h3','h4']):
-            print('[block]:',block.text)
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f949d4ddb2b570c344f29bc792be6058b3eff06b81941bea858b289a2805477
+size 527

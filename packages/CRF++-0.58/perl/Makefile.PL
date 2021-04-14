@@ -1,10 +1,3 @@
-use ExtUtils::MakeMaker;
-WriteMakefile(
-    'NAME'		=> 'CRFPP',
-    'CC'                => 'c++',
-    'LD'                => 'c++',
-    'INC'               => '',
-    'LIBS'              => '-lpthread -lcrfpp',
-#    'VERSION'	        => '0.46',
-    'OBJECT'            => 'CRFPP_wrap.o' 
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:19c687b067bb2d5fcf0ea689abfa2cb913904740216ea4e5120050c54e68876c
+size 291

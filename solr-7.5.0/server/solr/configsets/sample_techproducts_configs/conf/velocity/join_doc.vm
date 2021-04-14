@@ -1,20 +1,3 @@
-#**
- *  Display documents that are joined to other documents
- *#
-
-<div class="result-title">
-  <b>#field('compName_s')</b>
-</div>
-
-<div>
-  Id: #field('id')
-  (company-details document for
-    <a href="http://wiki.apache.org/solr/Join" target="_new">join</a>
-  )
-</div>
-
-<div>
-  Address: #field('address_s')
-</div>
-
-#parse('debug.vm')
+version https://git-lfs.github.com/spec/v1
+oid sha256:015d4d44514d3595059481f340eb4cb393bf0e0d7c1e93252fe4313acb55cfe7
+size 354

@@ -1,7 +1,3 @@
-#!/bin/sh
-../../crf_learn -f 3 -c 4.0 template train.data model
-../../crf_test -m model test.data
-
-../../crf_learn -a MIRA -f 3 template train.data model
-../../crf_test -m model test.data
-rm -f model
+version https://git-lfs.github.com/spec/v1
+oid sha256:a341e4794d476faeb87378ddc3b0fa0854d0779067fc2c2b3477a18394b604b8
+size 200
